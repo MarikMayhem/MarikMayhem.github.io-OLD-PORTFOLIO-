@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    background: linear-gradient( rgba(0, 0, 0, 0.70), rgba(0, 0, 0, 0.70)), url("/assets/img/watch.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+#firstContainer {
+    color: white;
+    padding-top: 14.6%;
+    padding-bottom: 20%;
+}
+
+#first-line {
+    width: 35%;
+    border: none;
+    height: 1px;
+    color: rgb(117, 117, 117);
+    background-color: #333;
+}
+
+#firstContainer>h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+#secondContainer {
+    background-color: white;
+    padding: 7%;
+}
+
+#second-line {
+    margin-top: 7em;
+    border: none;
+    height: 1px;
+    width: 90%;
+    color: #333;
+    background-color: #333;
+}
+
+#secondContainer>h2 {
+    text-align: center;
+    font-size: 4vw;
+}
+
+#contact-form {
+    margin: auto;
+    width: 60%;
+    margin-top: 3em;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+#contact-form>label {
+    font-size: 20px;
+}
+
+#email {
+    font-size: 20px;
+    width: 30%;
+}
+
+#text {
+    height: 7em;
+    width: 50%;
+    font-size: 20px;
+}
+
+.button {
+    top: 20;
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    -webkit-border-radius: 10px;
+    -webkit-box-shadow: 0px 3px rgba(128, 128, 128, 1), /* gradient effects */
+    0px 4px rgba(118, 118, 118, 1), 0px 5px rgba(108, 108, 108, 1), 0px 6px rgba(98, 98, 98, 1), 0px 7px rgba(88, 88, 88, 1), 0px 8px rgba(78, 78, 78, 1), 0px 14px 6px -1px rgba(128, 128, 128, 1);
+    /* shadow */
+    -webkit-transition: -webkit-box-shadow .1s ease-in-out;
+}
+
+.button span {
+    background-color: #E8E8E8;
+    background-image: /* gloss gradient */
+    -webkit-gradient( linear, left bottom, left top, color-stop(50%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.3)), color-stop(100%, rgba(255, 255, 255, 0.2))), /* dark outside gradient */
+    -webkit-gradient( linear, left top, right top, color-stop(0%, rgba(210, 210, 210, 0.3)), color-stop(20%, rgba(210, 210, 210, 0)), color-stop(80%, rgba(210, 210, 210, 0)), color-stop(100%, rgba(210, 210, 210, 0.3))), /* light inner gradient */
+    -webkit-gradient( linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(20%, rgba(255, 255, 255, 0.5)), color-stop(80%, rgba(255, 255, 255, 0.5)), color-stop(100%, rgba(255, 255, 255, 0))), /* diagonal line pattern */
+    -webkit-gradient( linear, 0% 100%, 100% 0%, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(40%, rgba(255, 255, 255, 0)), color-stop(40%, #D2D2D1), color-stop(60%, #D2D2D1), color-stop(60%, rgba(255, 255, 255, 0)), color-stop(100%, rgba(255, 255, 255, 0)));
+    -webkit-box-shadow: 0px -1px #fff, /* top highlight */
+    0px 1px 1px #FFFFFF;
+    /* bottom edge */
+    -webkit-background-size: 100%, 100%, 100%, 4px 4px;
+    -webkit-transition: -webkit-transform .1s ease-in-out;
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    color: #3A474D;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    text-shadow: 0px 1px #fff, 0px -1px #262F33;
+}
+
+.button span:hover {
+    color: darkslategrey;
+    text-shadow: 0px -1px darkslategrey;
+    cursor: pointer;
+}
+
+.button:active {
+    -webkit-box-shadow: 0px 3px rgba(128, 128, 128, 1), 0px 4px rgba(118, 118, 118, 1), 0px 5px rgba(108, 108, 108, 1), 0px 6px rgba(98, 98, 98, 1), 0px 7px rgba(88, 88, 88, 1), 0px 8px rgba(78, 78, 78, 1), 0px 10px 2px 0px rgba(128, 128, 128, .6);
+    /* shadow */
+}
+
+.button:active span {
+    -webkit-transform: translate(0, 5px);
+    /* depth of button press */
+}
+
+#thirdContainer {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 7%;
+}
+
+#thirdContainer>h2 {
+    text-align: center;
+    margin: auto;
+    font-size: 4vw;
+}
+
+#icons {
+    margin: auto;
+    width: 11em;
+    margin-top: 2em;
+}
+
+#thirdContainer>#icons>a i {
+    font-size: 6vw;
+    color: black;
+}

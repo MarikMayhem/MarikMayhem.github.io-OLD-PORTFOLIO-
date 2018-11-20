@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    background: linear-gradient( rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("/assets/img/coding.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+div.col {
+    width: 100px;
+}
+
+#first-container {
+    padding: 15%;
+}
+
+h1.intro {
+    font-size: 4.7vw;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#second-container {
+    padding-top: 12%;
+    padding-bottom: 1%;
+    background-color: white;
+}
+
+#second-container>h2 {
+    font-size: 4.7vw;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+#second-container>hr {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 60%;
+    border: none;
+    height: 1.5px;
+    color: rgb(117, 117, 117);
+    background-color: #333;
+}
+
+#second-container>hr:nth-child(4) {
+    width: 80%;
+    border: none;
+    height: 1.5px;
+    color: rgb(117, 117, 117);
+    background-color: #333;
+}
+
+#second-container>h3 {
+    width: 32%;
+}
+
+#second-container>div>div:nth-child(1) {
+    margin-bottom: 5%;
+}
+
+#second-container>div>div:nth-child(2) {
+    margin-bottom: 5%;
+}
+
+#third-container {
+    background-color: white;
+    padding-top: 3%;
+    padding-bottom: 8%;
+}
+
+#third-container>hr {
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 60%;
+    border: none;
+    height: 1.5px;
+    color: rgb(117, 117, 117);
+    background-color: #333;
+}
+
+#third-container div {
+    width: 60%;
+}
+
+#third-container h2 {
+    font-size: 4.7vw;
+    font-weight: black;
+    text-align: center;
+    color: black;
+}
+
+.languages {
+    font-weight: bold;
+    width: 100%;
+    color: darkslategrey;
+}
+
+#third-container>div h3 {
+    text-align: center;
+    color: darkslategrey;
+    font-weight: bold;
+}
+
+#third-container>div:nth-child(3) {
+    margin-bottom: 5%;
+}
