@@ -81,16 +81,18 @@ a.carousel-control-next {
     background-color: black;
 }
 
-#carouselExampleIndicators>div>div.carousel-item.active>div>h3 {
+#custom-caption {
     background-color: black;
-    width: 20%;
-    margin: auto;
+    font-size: 1vw;
+    position: static;
+    padding: 0;
+}
+#custom-caption > h3{
+    font-size: 2vw;
 }
 
-#carouselExampleIndicators>div>div.carousel-item.active>div>p {
-    background-color: black;
-    width: 60%;
-    margin: auto;
+.carousel-indicators {
+    bottom: -13px !important;
 }
 
 .carousel-indicators li {
