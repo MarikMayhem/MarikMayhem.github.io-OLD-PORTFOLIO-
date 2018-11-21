@@ -92,3 +92,11 @@ a.carousel-control-next {
     width: 60%;
     margin: auto;
 }
+
+.carousel-indicators li {
+    background-color: black !important;
+}
+
+.carousel-indicators .active {
+    background-color: red !important;
+}
