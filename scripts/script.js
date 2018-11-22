@@ -1,13 +1,16 @@
+
+
 $(function () {
+    $("#header").load("templates/common/header.html");
+
+    $("#footer").load("templates/common/footer.html");
+    $('.intro').fadeIn(1500);
 
     function isValidEmailAddress(emailAddress) {
         var pattern = new RegExp(/^[+a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i);
         // alert( pattern.test(emailAddress) );
         return pattern.test(emailAddress);
     }
-
-    $("#header").load("templates/common/header.html");
-    $("#footer").load("templates/common/footer.html");
 
     //EmailContact
     $('#contact-form').submit(function (e) {
@@ -51,7 +54,7 @@ $(function () {
     $('.button').on('click', function () {
         $('#contact-form').submit();
     });
-    
+
     //Animate
     // $(".menu-anchor").click(function(){
     //     // $(this).animate({height: "+=20px"});

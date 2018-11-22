@@ -14,10 +14,11 @@ html, body {
 
 #first-container {
     padding-top: 10%;
-    padding-bottom: 19.5%;
+    padding-bottom: 20%;
 }
 
 h1.intro {
+    display: none;
     font-size: 4.7vw;
     text-align: center;
     font-weight: bold;
@@ -87,7 +88,8 @@ a.carousel-control-next {
     position: static;
     padding: 0;
 }
-#custom-caption > h3{
+
+#custom-caption>h3 {
     font-size: 2vw;
 }
 

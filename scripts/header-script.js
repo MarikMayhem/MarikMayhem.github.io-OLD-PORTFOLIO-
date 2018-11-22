@@ -1,3 +1,6 @@
+$('.navbar').fadeIn(1500);
+
+
 $(".menu-anchor").hover(function () {
     $(this).animate({ fontSize: "+=5px" });
     $(".menu-anchor").css({ color: 'grey' });

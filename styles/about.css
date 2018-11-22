@@ -18,6 +18,7 @@ html, body {
 }
 
 h1.intro {
+    display:none;
     font-size: 4.7vw;
     text-align: center;
     font-weight: bold;
