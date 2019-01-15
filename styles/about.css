@@ -18,7 +18,7 @@ html, body {
 }
 
 h1.intro {
-    display:none;
+    display: none;
     font-size: 4.7vw;
     text-align: center;
     font-weight: bold;
@@ -39,8 +39,9 @@ h1.intro {
 }
 
 #second-container img {
-    border-radius: 50%;
-    height: 60%;
+    border-radius: 49%;
+    height: 89%;
+    width: 55%;
 }
 
 #second-container>hr {
